@@ -1,0 +1,2 @@
+requests>=2.28
+python-dotenv>=1.0   # 可选：没装也能跑，脚本内置了简易 .env 解析

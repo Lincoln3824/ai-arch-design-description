@@ -1,0 +1,15 @@
+# 默认按文本处理，仓库内统一用 LF
+* text=auto eol=lf
+
+# Windows 批处理必须是 CRLF，否则在部分环境下无法正确解析
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.bmp binary
+*.gif binary
+*.pdf binary
